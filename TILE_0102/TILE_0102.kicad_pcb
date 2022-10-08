@@ -94,11 +94,11 @@
     (tags "kb_params=eyJBbGlnbm1lbnRDaG9pY2UiOiAiQ2VudGVyIiwgIkNhcExlZnRDaG9pY2UiOiAiKCIsICJDYXBSaWdodENob2ljZSI6ICIpIiwgIkZvbnRDb21ib0JveCI6ICJVYnVudHVNb25vLUIiLCAiSGVpZ2h0Q3RybCI6ICIwLjciLCAiTGF5ZXJDb21ib0JveCI6ICJGLlNpbGtTIiwgIk11bHRpTGluZVRleHQiOiAiVjEuMCIsICJQYWRkaW5nQm90dG9tQ3RybCI6ICIzIiwgIlBhZGRpbmdMZWZ0Q3RybCI6ICIwIiwgIlBhZGRpbmdSaWdodEN0cmwiOiAiMCIsICJQYWRkaW5nVG9wQ3RybCI6ICIzIiwgIldpZHRoQ3RybCI6ICIwIn0=")
     (attr board_only exclude_from_pos_files exclude_from_bom)
     (fp_text reference "kibuzzard-63351CB9" (at 0 -3.54584) (layer "F.SilkS") hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
       (tstamp 369ff806-2b20-4c1d-954c-4e452c0fb75a)
     )
     (fp_text value "G***" (at 0 3.54584) (layer "F.SilkS") hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
       (tstamp 00733060-2a97-48f4-bba5-1891fa9834e9)
     )
     (fp_poly (pts
@@ -688,7 +688,7 @@
     (style (thickness 0.15) (arrow_length 1.27) (text_position_mode 0) (extension_height 0.58642) (extension_offset 0) keep_text_aligned)
   )
 
-  (zone (net 0) (net_name "") (layer "F.Cu") (tstamp fba0d75a-a063-4c1a-a078-ad70d65d77c3) (hatch edge 0.508)
+  (zone (net 0) (net_name "") (layers F&B.Cu) (tstamp 00000000-0000-0000-0000-000063068369) (hatch edge 0.508)
     (connect_pads (clearance 0.15))
     (min_thickness 0.254) (filled_areas_thickness no)
     (fill yes (thermal_gap 0.15) (thermal_bridge_width 0.508) (smoothing fillet) (radius 1))
@@ -1027,19 +1027,6 @@
         (xy 101.028685 100.351516)
         (xy 101.036402 100.3505)
         (xy 108.685211 100.3505)
-      )
-    )
-  )
-  (zone (net 0) (net_name "") (layer "B.Cu") (tstamp 00000000-0000-0000-0000-000063068369) (hatch edge 0.508)
-    (connect_pads (clearance 0.15))
-    (min_thickness 0.254) (filled_areas_thickness no)
-    (fill yes (thermal_gap 0.15) (thermal_bridge_width 0.508) (smoothing fillet) (radius 1))
-    (polygon
-      (pts
-        (xy 140 120)
-        (xy 100 120)
-        (xy 100 100)
-        (xy 140 100)
       )
     )
     (filled_polygon
